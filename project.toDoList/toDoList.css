@@ -1,0 +1,39 @@
+*{
+
+}
+body{
+  min-height: ;
+  display: flex;
+  flex-direction: column;
+
+}
+.header{
+  height: 40px
+  display: flex;
+  align-items: center;
+  background-color: beige;
+  padding: 2rem;
+
+}
+
+main{
+  flex: 1;
+  background-color: pink;
+}
+
+
+.header_input{
+  width: 10rem;
+  height: 1.5rem;
+  padding: 4px;
+  margin-bottom: 2rem;
+}
+
+.todolist{
+  width: 10rem;
+  background-color: lightpink;
+  display: flex;
+  direction: column;
+  padding: 1rem;
+  border-radius: 14px;
+}
