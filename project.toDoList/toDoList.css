@@ -1,24 +1,31 @@
 *{
+  margin: 0;
+  padding: 0;
+  list-style: none ;
 
 }
 body{
-  min-height: ;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  min-height: 100vh ;
   display: flex;
   flex-direction: column;
-
 }
-.header{
-  height: 40px
+
+header{
+  height: 40px;
   display: flex;
+  column-gap: 1rem;
   align-items: center;
   background-color: beige;
-  padding: 2rem;
-
+  padding: 1rem;
 }
 
 main{
   flex: 1;
-  background-color: pink;
+  background-color: rgb(241, 202, 208);
 }
 
 
