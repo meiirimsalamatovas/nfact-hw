@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кнопка закрытия</title>
+    <style>
+        .message {
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            position: relative;
+        }
+        .close-btn {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            line-height: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        Сообщение 1
+    </div>
+    <div class="message">
+        Сообщение 2
+    </div>
+    <div class="message">
+        Сообщение 3
+    </div>
+
+    <script>
+        // Получаем все сообщения
+        const messages = document.querySelectorAll('.message');
+
+        messages.forEach(message => {
+           
+            const closeButton = document.createElement('button');
+            closeButton.className = 'close-btn';
+            closeButton.textContent = '×';
+
+         
+            message.appendChild(closeButton);
+
+        
+            closeButton.addEventListener('click', () => {
+                message.style.display = 'none';
+            });
+        });
+    </script>
+</body>
+</html>
