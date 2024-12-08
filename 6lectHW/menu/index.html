@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Меню</title>
+  <style>
+    .menu {
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .menu ul {
+      list-style: none;
+      margin: 10px 0 0;
+      padding: 0;
+      display: none; 
+    }
+
+    .menu ul li {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="menu">
+  ▶ Сладости (нажми меня)!
+  <ul>
+    <li>Пирожное</li>
+    <li>Пончик</li>
+    <li>Мёд</li>
+  </ul>
+</div>
+
+<script>
+  const menu = document.querySelector('.menu');
+  const list = menu.querySelector('ul');
+  const title = menu.firstChild;
+
+  menu.addEventListener('click', () => {
+    const isOpen = list.style.display === 'block';
+    list.style.display = isOpen ? 'none' : 'block';
+    menu.firstChild.textContent = isOpen ? '▶ Сладости (нажми меня)!' : '▼ Сладости (нажми меня)!';
+  });
+</script>
+
+</body>
+</html>
