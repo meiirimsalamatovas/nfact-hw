@@ -1,0 +1,347 @@
+@media screen and (max-width: 1024px) {
+    header {
+        padding: 12px 24px;
+    }
+
+    .header_container {
+        flex-direction: row;
+    }
+
+    .btn4 {
+        margin-right: 30px;
+    }
+
+    .description_container {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 54px 24px;
+        margin-bottom: 20px;
+    }
+
+    .description_info {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .description_info-title h1 {
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        margin: 0 20px;
+    }
+
+    .description_info-description p {
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .description_info button {
+        height: 60px;
+        margin-top: 20px;
+    }
+
+    .description_visualContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        order: -1;
+        margin-bottom: 30px;
+    }
+
+    .description_visualContent .background {
+        width: 100%;
+        height: auto;
+    }
+
+    .overlay1, .overlay2 {
+        width: 20%;
+    }
+
+    .overlay1 {
+        left: 700px;
+        top: 300px;
+    }
+
+    .overlay2 {
+        left: 300px;
+    }
+
+    .how-it-works {
+        padding: 54px 24px;
+        height: auto;
+    }
+
+    .info-text h2 {
+        font-size: 40px;
+    }
+
+    .steps {
+        flex-direction: column;
+        margin-top: 25px;
+    }
+
+    .step {
+        margin-bottom: 10px;
+    }
+
+    .number {
+        height: 5px;
+    }
+
+    .number img {
+        width: 25px;
+        height: auto;
+    }
+
+    .text_description {
+        margin-top: 18px;
+    }
+
+    .text_title p {
+        font-size: 20px;
+    }
+
+    .text_description p {
+        font-size: 16px;
+    }
+
+    #get-started {
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .file-input_info {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .file-input_text .text_title, .file-input_text .text_description {
+        width: 100%;
+
+        margin-bottom: 30px;
+    }
+
+    .file-input_text .text_title h2 {
+        font-size: 32px;
+    }
+
+    .file-input_text .text_description p {
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .file-input_frame {
+        display: block;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .file-input_field {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .file-input_frame button {
+        height: 50px;
+        font-size: 15px;
+    }
+
+    #upload-cv {
+        flex-direction: column;
+        height: auto;
+        padding: 64px 24px 64px 24px;
+        gap: 30px;
+    }
+
+    .upload-cv-visual .background {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .upload-cv_info {
+        width: 100%;
+        margin: 0;
+        height: auto;
+    }
+
+    .upload-cv_info_text_title {
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    .upload-cv_info_text_description {
+        width: auto;
+        height: auto;
+    }
+
+    .upload-cv_info_text_title h2 {
+        font-size: 32px;
+    }
+
+    .upload-cv_info_text_description p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .upload-cv_info_text_button .btn {
+        font-size: 16px;
+    }
+
+    footer {
+        height: auto;
+        padding: 32px 24px;
+    }
+
+    .footer-container {
+        height: auto;
+        align-items: flex-start;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu1 .btn {
+        display: flex;
+    }
+
+    .menu1, .menu2 {
+        width: auto;
+    }
+
+    .menu1 a, .menu2 p, .menu3 p, .credits a {
+        font-size: 16px;
+        line-height: 16px;
+        text-align: left;
+    }
+
+    .social-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 10px;
+        gap: 12px;
+        margin-top: 5px;
+    }
+
+    .footer-container2 {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .overlay1 {
+        left: 550px;
+        top: 200px;
+    }
+
+    .overlay2 {
+        left: 250px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .description_info-title h1 {
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        margin: 0 20px;
+    }
+
+    .description_info-description p {
+        font-size: 14px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .overlay1, .overlay2 {
+        width: 20%;
+    }
+
+    .overlay1 {
+        left: 200px;
+        top: 100px;
+    }
+
+    .overlay2 {
+        left: 100px;
+    }
+
+    .info-text h2 {
+        font-size: 32px;
+    }
+
+    .steps {
+        flex-direction: column;
+        margin-top: 25px;
+    }
+
+    .step {
+        margin-bottom: 10px;
+    }
+
+    .number {
+        height: 5px;
+    }
+
+    .number img {
+        width: 20px;
+        height: auto;
+    }
+
+    .text_description {
+        margin-top: 10px;
+    }
+
+    .text_title p {
+        font-size: 18px;
+    }
+
+    .text_description p {
+        font-size: 14px;
+    }
+
+    .file-input_text .text_title h2 {
+        font-size: 28px;
+    }
+
+    .file-input_text .text_description p {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .upload-cv_info_text_title h2 {
+        font-size: 20px;
+    }
+
+    .upload-cv_info_text_description p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .upload-cv_info_text_button .btn {
+        font-size: 12px;
+    }
+
+    .menu1 a, .menu2 p, .menu3 p, .credits a {
+        font-size: 12px;
+        line-height: 16px;
+        text-align: left;
+    }
+
+    .social-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 10px;
+        gap: 12px;
+        margin-top: 5px;
+    }
+}
