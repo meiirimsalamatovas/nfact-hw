@@ -1,0 +1,54 @@
+.article-page {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.article-page h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.article-meta {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.article-page img {
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.article-page p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.article-actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.article-actions button {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border:none;
+  border-radius: 5px;
+  font-size: 16px;
+  background: none;
+  color: #333;
+  opacity: 50%;
+
+}
+
+
+
+
+

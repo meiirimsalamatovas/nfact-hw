@@ -1,0 +1,40 @@
+.footer {
+
+    color:#081E34;
+    padding: 20px;
+    text-align: center;
+    margin-top: 500px;
+  }
+  
+  .footer-content {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+  
+  .footer1 p {
+    text-align: end;
+    margin: 20px;
+    font-size: 14px;
+    color: #081E34;
+    opacity: 50%;
+  
+  }
+
+  .footer1 a{
+    color: #081E34;
+    ;
+  }
+
+
+  .footer2 p {
+    text-align: end;
+    margin: 20px;
+    font-size: 14px;
+    color: #081E34;
+
+  }
+
+ 
+
+
+  
